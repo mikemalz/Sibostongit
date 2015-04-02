@@ -1,0 +1,159 @@
+/* 
+	My custom settings. These variables are copied from _settings.css
+	This file will only contain uncommented settings that are actually used in the theme.
+*/
+
+// We use these to define default font stacks
+$font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+$font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
+
+// We use these to define default font weights
+$font-weight-normal: normal !default;
+$font-weight-bold: bold !default;
+
+$white       : #FFFFFF;
+$ghost       : #FAFAFA;
+$snow        : #F9F9F9;
+$vapor       : #F6F6F6;
+$white-smoke : #F5F5F5;
+$silver      : #EFEFEF;
+$smoke       : #EEEEEE;
+$gainsboro   : #DDDDDD;
+$iron        : #CCCCCC;
+$base        : #AAAAAA;
+$aluminum    : #999999;
+$jumbo       : #888888;
+$monsoon     : #777777;
+$steel       : #666666;
+$charcoal    : #555555;
+$tuatara     : #444444;
+$oil         : #333333;
+$jet         : #222222;
+$black       : #000000;
+
+// We use these as default colors throughout
+$primary-color: #008CBA;
+$secondary-color: #e7e7e7;
+$alert-color: #f04124;
+$success-color: #43AC6A;
+$warning-color: #f08a24;
+$info-color: #a0d3e8;
+
+// We use these to control various global styles
+$body-bg: $white;
+$body-font-color: $jet;
+$body-font-family: $font-family-sans-serif;
+$body-font-weight: $font-weight-normal;
+$body-font-style: normal;
+
+$header-font-weight: 300;
+$header-text-rendering: optimizeLegibility;
+$topbar-link-weight: bold;
+
+
+header  {
+  background: #000000;
+  color:#fff;
+  height:50px;
+  
+  ul {
+    display:inline-block;
+    font-size:10px;
+    list-style: none;
+    position:relative;
+    top:8px;
+    right:10px;
+  }
+  
+  li:first-child {
+    font-size:12px;
+  }
+
+  img:first-child {
+    height:25px;
+    width:40px;
+    border-right:solid 1px #fff;
+    padding-right:10px;
+  }
+
+  
+  a {
+    float:right;
+    position: relative;
+    font-size: .75em;
+    top:25px;
+    border:solid 2px #fff;
+    border-radius: 10px;
+    padding:2.5px 5px 2.5px 5px;
+    color: #fff;
+    margin-top: -55px;
+  }
+
+  a:hover {
+    opacity:.8;
+    color:#fff;
+  }
+}
+
+.logo {
+  position: relative;
+  margin-top:-45px;
+  height:32px;
+  width:30px;
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.icon-bar {
+  background: linear-gradient( #545454,  #000000);
+  background: -webkit-linear-gradient( #545454,  #000000); 
+  background: -o-linear-gradient( #545454, #000000); 
+  background: -moz-linear-gradient( #545454, #000000); 
+  height:10%;
+   a{
+  position: relative;
+  padding-top:10px;
+  }
+  img {
+    height:1.3em;
+    width:1.3em;
+  }
+  label {
+    font-size:.65em;
+  }
+}
+
+nav {
+  input {
+    display:hidden;
+  }
+}
+
+section {
+  h1 {
+    font-family: 'Lora', serif;
+    font-size:18px;
+    font-weight: bold;
+  }
+  p{
+    font-size:14px;
+  }
+  img {
+    
+    //height:125px;
+    //width:125px;
+  }
+}
+
+.x {
+  position:absolute;
+  height:40px;
+  width:1px;
+  left:100%;
+  bottom:30%;
+  background-color:#fff;
+  opacity:.2;
+
+}
